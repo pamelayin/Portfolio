@@ -13,4 +13,5 @@ Built game in C++ using doubly linked list ADT to connect space objects and assi
 Built personal web page using HTML, CSS, Bootstrap, and JavaScript, with AJAX request integration for visitor counter and contact form. 
 
 **Movie Theater Ticketing Website**
+
 Created fully functional movie theater ticketing website that has both client usage and database control for admin as 2-person team. Used HTML, CSS, Bootstrap, JavaScript, and PHP with database interaction using MySQL queries.
