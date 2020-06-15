@@ -1,0 +1,54 @@
+<!-- 
+	OSU CS 340 Spring 2020 Databases
+	Project Group 10
+	Authors: Jacob Lee, Pamela Yin 
+	Date: June 8, 2020
+	Description: This is main (starting) page for the movie theater ticketing system.
+				There is client side interaction that allows users to pick location, movie, time, ticket type, and quantity
+				to make a purchase. There is also admin database interaction that can be accessed through admin on the top right
+				corner of nav bar which leads to admin database pages that can do CRUD functions on the database tables. 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>The Premium Movie</title>
+	<link rel="stylesheet" href="css/page.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+</head>
+
+<body style="margin:0px">
+	<!-- nav bar -->
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #F5435B;">
+
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="main.html">Location <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+		<a class="navbar-brand" href="#">ANONE Premium Movie</a>
+		<a class="navbar-brand" href="admin_pg/admin_login.php">| ADMIN</a>
+	</nav>
+
+	<!-- body w/ location links -->
+	<div style="height:94%;">
+		<img src="image/main_img3.jpg" class="img-fluid" style="height:100%;">
+		<div id="main" style="background-image: url('image/main_bg_img.png');">
+			<p><br><span style="color:#F5435B">W</span>ELCOME TO <br> The <span style="color:#F5435B">P</span>remium
+				<span style="color:#F5435B">M</span>ovie</span> <span style="color:#F5435B">T</span>heater</p>
+			<h4 style="text-decoration: underline;">-Select Your Location Below-</h4>
+			<a href="losangeles.php"><button type="button" class="btn-light">Los Angeles, CA</button></a>
+			<a href="sandiego.php"><button type="button" class="btn-light">San Diego, CA</button></a>
+			<a href="oregon.php"><button type="button" class="btn-light">Portland, OR</button></a>
+		</div>
+	</div>
+</body>
+<footer>
+</footer>
+</html>
