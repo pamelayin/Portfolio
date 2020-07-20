@@ -1,4 +1,4 @@
-# Projects from Oregon Statue University CS Courses
+# Projects from Oregon State University Computer Science Courses
 
 **Fantasy Combat Game**
 
