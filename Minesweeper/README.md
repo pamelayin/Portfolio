@@ -1,5 +1,5 @@
 # CS325 HW6 Portfolio Project
-In this homework, minesweeper game is created and played by the user.
+Minesweeper game is created and played by the user.
 
 ## Language
 C++ using C++11 standards on OSU flip server
