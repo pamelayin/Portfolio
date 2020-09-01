@@ -20,6 +20,6 @@ Built personal web page using HTML, CSS, Bootstrap, and JavaScript, with AJAX re
 
 Created fully functional movie theater ticketing website that has both client usage and database control for admin as 2-person team. Used HTML, CSS, Bootstrap, JavaScript, and PHP with database interaction using MySQL queries.
 
-**Minesweeper**
+**Minesweeper Game**
 
 Built text-based classic minesweeper game in C++. The game has 10 mines in 9x9 grid. This program is implemented using two boards, one that holds the mines and numbers and one that is displayed to user. When user uncovers a square, the number on the square copied to user board. If the number is 0, adjacent cells are uncovered as well using floodfill algorithm. If user uncovers square cotaining bomb, user losers. If user uncovers all squares that contain number, user wins.
