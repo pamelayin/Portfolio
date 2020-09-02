@@ -22,4 +22,4 @@ Created fully functional movie theater ticketing website that has both client us
 
 **Minesweeper Game**
 
-Built text-based classic minesweeper game in C++. The game has 10 mines in 9x9 grid. This program is implemented using two boards, one that holds the mines and numbers and one that is displayed to user. When user uncovers a square, the number on the square copied to user board. If the number is 0, adjacent cells are uncovered as well using floodfill algorithm. If user uncovers square cotaining bomb, user losers. If user uncovers all squares that contain number, user wins.
+Built text-based classic minesweeper game in C++. The game has 10 mines in 9x9 grid. This program is implemented using two boards, one that holds the mines and numbers and one that is displayed to user. When user uncovers a square, the number on the square copied to user board. If the number is 0, adjacent cells are uncovered as well using flood fill algorithm. If user uncovers square cotaining bomb, user losers. If user uncovers all squares that contain number, user wins.
